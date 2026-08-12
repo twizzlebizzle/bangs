@@ -2455,6 +2455,14 @@
     "sc": "International"
   },
   {
+    "s": "Amazon Ireland",
+    "d": "www.amazon.ie",
+    "t": "aie",
+    "u": "https://www.amazon.ie/s?k={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
+  },
+  {
     "s": "Arlington Industries",
     "d": "www.aifittings.com",
     "t": "aifit",
@@ -9432,14 +9440,6 @@
     "sc": "Blogs"
   },
   {
-    "s": "Blick am Abend",
-    "d": "www.blickamabend.ch",
-    "t": "blickaa",
-    "u": "https://www.blickamabend.ch/suche/?q={{{s}}}",
-    "c": "News",
-    "sc": "Newspaper"
-  },
-  {
     "s": "Blindekuh.de",
     "d": "www.blinde-kuh.de",
     "t": "blindekuh",
@@ -15342,7 +15342,9 @@
     "s": "Context7",
     "d": "context7.com",
     "t": "context7",
-    "ts": ["ctx7"],
+    "ts": [
+      "ctx7"
+    ],
     "u": "https://context7.com/?q={{{s}}}",
     "c": "Tech",
     "sc": "Libraries/Frameworks"
@@ -16050,6 +16052,27 @@
     "u": "https://coder.aapc.com/cpt-codes/{{{s}}}",
     "c": "Research",
     "sc": "Health"
+  },
+  {
+    "s": "Canadian Public Transit Discussion Board",
+    "d": "cptdb.ca",
+    "t": "cptdb",
+    "u": "https://cptdb.ca/search/?q={{{s}}}&quick=1",
+    "c": "Entertainment",
+    "sc": "Forum"
+  },
+  {  
+    "s": "Canadian Public Transit Discussion Board Wiki",
+    "d": "cptdb.ca",
+    "ad": "cptdb.ca/wiki/index.php/Main_Page",
+    "t": "cptdbwiki",
+    "u": "https://cptdb.ca/wiki/index.php?search={{{s}}}&title=Special:Search&go=Go",
+    "c": "Research",
+    "sc": "Reference",
+    "fmt": [
+      "open_snap_domain",
+      "url_encode_space_to_plus"
+    ]
   },
   {
     "s": "Collins Dictionary (Portuguese - English)",
@@ -19299,13 +19322,13 @@
     ]
   },
   {
-  "s": "Deltarune Wiki",
-  "d": "deltarune.wiki",
-  "t": "deltarune",
-  "u": "https://deltarune.wiki/index.php?search={{{s}}}&title=Special:Search",
-  "c": "Entertainment",
-  "sc": "Games (specific)"
-},
+    "s": "Deltarune Wiki",
+    "d": "deltarune.wiki",
+    "t": "deltarune",
+    "u": "https://deltarune.wiki/index.php?search={{{s}}}&title=Special:Search",
+    "c": "Entertainment",
+    "sc": "Games (specific)"
+  },
   {
     "s": "Dragen en Voeden Forum",
     "d": "forum.dragen-en-voeden.nl",
@@ -21425,9 +21448,9 @@
   },
   {
     "s": "Downdetector",
-    "d": "downdetector.co.uk",
+    "d": "downdetector.com",
     "t": "downd",
-    "u": "https://downdetector.co.uk/search/?q={{{s}}}",
+    "u": "https://downdetector.com/status/{{{s}}}",
     "c": "Online Services",
     "sc": "Tools (URLs)"
   },
@@ -35630,6 +35653,19 @@
     "sc": "Google"
   },
   {
+    "s": "GTK 4 Documentation",
+    "d": "docs.gtk.org",
+    "ad": "docs.gtk.org/gtk4/",
+    "t": "gtk4",
+    "u": "https://docs.gtk.org/gtk4/index.html?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming",
+    "fmt": [
+      "open_snap_domain",
+      "url_encode_placeholder"
+    ]
+  },
+  {
     "s": "Google Translate (to Korean)",
     "d": "translate.google.com",
     "t": "gtko",
@@ -42834,7 +42870,7 @@
     "ts": [
       "johnlewis"
     ],
-    "u": "https://www.johnlewis.com/Search/Search.aspx?SearchTerm={{{s}}}",
+    "u": "https://www.johnlewis.com/search?search-term={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -46812,6 +46848,19 @@
     "u": "https://lehollandaisvolant.net/?mode=links&q={{{s}}}",
     "c": "Tech",
     "sc": "Blogs"
+  },
+  {
+    "s": "libadwaita Documentation",
+    "d": "gnome.pages.gitlab.gnome.org",
+    "ad": "gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/",
+    "t": "libadwaita",
+    "u": "https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/index.html?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming",
+    "fmt": [
+      "open_snap_domain",
+      "url_encode_placeholder"
+    ]
   },
   {
     "s": "Libby, By Overdrive",
@@ -55055,6 +55104,21 @@
     "u": "https://github.com/search?q=repo:kagisearch/bangs+{{{s}}}&type=code",
     "c": "Online Services",
     "sc": "Search"
+  },
+  {
+    "s": "nbarapm.com",
+    "d": "nbarapm.com",
+    "t": "nbarapm",
+    "ts": [
+      "rapm"
+    ],
+    "u": "https://nbarapm.com/player/{{{s}}}",
+    "c": "Entertainment",
+    "sc": "Sports",
+    "fmt": [
+      "open_base_path",
+      "url_encode_placeholder"
+    ]
   },
   {
     "s": "Notebookcheck(DE)",
@@ -65978,12 +66042,23 @@
     "d": "rateyourmusic.com",
     "t": "rym",
     "ts": [
-      "rymf",
       "rateyourmusic"
     ],
     "u": "https://rateyourmusic.com/search?searchterm={{{s}}}",
     "c": "Entertainment",
     "sc": "Audio"
+  },
+  {
+    "s": "Rate Your Music (films)",
+    "d": "rateyourmusic.com",
+    "t": "rymf",
+    "ts": [
+      "rymfilms",
+      "rateyourfilms"
+    ],
+    "u": "https://rateyourmusic.com/search?searchtype=F&searchterm={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Movies"
   },
   {
     "s": "TopRatgeber24",
@@ -68307,13 +68382,13 @@
     "sc": "Games (general)"
   },
   {
-  "s": "RPCS3 Wiki",
-  "d": "wiki.rpcs3.net",
-  "t": "rpcs3",
-  "u": "https://wiki.rpcs3.net/index.php?title=Special%3ASearch&search={{{s}}}",
-  "c": "Research",
-  "sc": "Reference"
-},
+    "s": "RPCS3 Wiki",
+    "d": "wiki.rpcs3.net",
+    "t": "rpcs3",
+    "u": "https://wiki.rpcs3.net/index.php?title=Special%3ASearch&search={{{s}}}",
+    "c": "Research",
+    "sc": "Reference"
+  },
   {
     "s": "StackExchange RPG",
     "d": "rpg.stackexchange.com",
@@ -79476,9 +79551,9 @@
   },
   {
     "s": "Trakt",
-    "d": "trakt.tv",
+    "d": "app.trakt.tv",
     "t": "trakt",
-    "u": "https://trakt.tv/search?utf8=%E2%9C%93&query={{{s}}}",
+    "u": "https://app.trakt.tv/search?m=media&q={{{s}}}",
     "c": "Entertainment",
     "sc": "TV"
   },
@@ -82357,6 +82432,15 @@
     "sc": "Tools"
   },
   {
+    "s": "XE Currency Defined Search",
+    "d": "www.xe.com",
+    "t": "xec",
+    "u": "https://www.xe.com/currencyconverter/convert/?Amount=$3&From=$1&To=$2",
+    "x": "([A-Z]{3})\\s+([A-Z]{3})\\s+(\\d+(?:\\.\\d+)?)",
+    "c": "Online Services",
+    "sc": "Tools"
+  },
+  {
     "s": "Machineseeker.com - Used machinery search engine",
     "d": "www.machineseeker.com",
     "t": "used",
@@ -83731,11 +83815,11 @@
   {
     "s": "VirusTotal",
     "d": "www.virustotal.com",
-    "t": "virustotalfilesearch",
+    "t": "virustotal",
     "ts": [
-      "virustotal"
+      "vt"
     ],
-    "u": "https://www.virustotal.com/en/search?query={{{s}}}",
+    "u": "https://www.virustotal.com/gui/search?query={{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -84277,10 +84361,29 @@
     "sc": "Reference (words intl)"
   },
   {
-    "s": "www.virustotal.com",
+    "s": "VirusTotal IP",
     "d": "www.virustotal.com",
     "t": "vtip",
-    "u": "https://www.virustotal.com/en/ip-address/{{{s}}}/information/",
+    "u": "https://www.virustotal.com/gui/ip-address/{{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
+    "s": "VirusTotal Domain",
+    "d": "www.virustotal.com",
+    "t": "vtdomain",
+    "u": "https://www.virustotal.com/gui/domain/{{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
+    "s": "VirusTotal File",
+    "d": "www.virustotal.com",
+    "t": "vtfile",
+    "ts": [
+      "vthash"
+    ],
+    "u": "https://www.virustotal.com/gui/file/{{{s}}}",
     "c": "Tech",
     "sc": "Sysadmin"
   },
@@ -84307,14 +84410,6 @@
     "u": "https://vtmb.wikia.com/wiki/Special:Search?query={{{s}}}",
     "c": "Entertainment",
     "sc": "Games (specific)"
-  },
-  {
-    "s": "Vulgum Techus",
-    "d": "www.vulgumtechus.com",
-    "t": "vt",
-    "u": "https://www.vulgumtechus.com/index.php?title=Spécial:Recherche&search={{{s}}}",
-    "c": "Tech",
-    "sc": "Blogs"
   },
   {
     "s": "Bibliotheek van de Vrije Univesiteit Brussel",
@@ -84733,6 +84828,17 @@
     "sc": "Games (specific)"
   },
   {
+    "s": "Avakot Wiki",
+    "d": "wiki.avakot.org",
+    "t": "avakotw",
+    "ts": [
+      "wavakot"
+    ],
+    "u": "https://wiki.avakot.org/?search={{{s}}}",
+    "c": "Entertainment",
+    "sc": "Games (specific)"
+  },
+  {
     "s": "Total war Warhammer Wiki",
     "d": "totalwarwarhammer.gamepedia.com",
     "t": "warhammer",
@@ -84805,7 +84911,7 @@
     "s": "Watson",
     "d": "www.watson.ch",
     "t": "watson",
-    "u": "https://www.watson.ch/u/search?#{{{s}}}",
+    "u": "https://www.watson.ch/u/search?q={{{s}}}",
     "c": "News",
     "sc": "Aggregators"
   },
@@ -93397,6 +93503,17 @@
     ]
   },
   {
+    "s": "Resonite Wiki",
+    "d": "wiki.resonite.com",
+    "t": "resowiki",
+    "ts": [
+      "resow",
+      "resonitewiki"
+    ],
+    "u": "https://wiki.resonite.com/index.php?search={{{s}}}",
+    "c": "Online Services"
+  },
+  {  
     "s": "Orion Feedback (Discussions)",
     "d": "orionfeedback.org",
     "ad": "orionfeedback.org/d",
